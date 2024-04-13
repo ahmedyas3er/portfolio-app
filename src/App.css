@@ -196,7 +196,28 @@ color: #9e9ea7;
     background-color: #f8f9fa;
   }
 
+@media(max-width:500px){
+  .sec2-p1 p{
+    font-size: 20px;
+ 
+  }
 
+  .sec2-p1 h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  .sec2-p2{
+    margin-left: 90px;
+    
+  }
+
+  .sec2-p3{
+    margin-left: 90px;
+    
+  }
+}
 
   /* ---------------------------------------sec3---------------------------------------------  */
 
@@ -220,8 +241,7 @@ color: #9e9ea7;
     margin-top: 30px;
     margin-left: 60px;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
+  
     border-radius: 10px;
    
   }
@@ -247,6 +267,15 @@ color: #9e9ea7;
    
 
   }
+
+
+  .divflexy3{
+  padding: 30px 0px ;
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
   .divflexy3 h5{
     font-size: 35px;
     font-family: "Abel", sans-serif;
@@ -271,7 +300,27 @@ color: #9e9ea7;
 
   }
  
-
+  @media(max-width:500px){
+    .divsec3{
+      width: 120px;
+     
+     
+    }
+    .divsec3 h4{
+      font-size: 9px;
+      border-radius: 50px;
+  padding: 7px 4px;
+    }
+     
+    .divflexy3 h6{
+     font-size: 13px;
+     margin-left: 60px;
+    }
+    .divflexy3 h5{
+      font-size: 14px;
+      margin-right: 20px;
+     }
+  }
   /* ---------------------------------------sec4---------------------------------------------  */
 
 
@@ -293,6 +342,12 @@ text-align: center;
 
   }
 
+  @media(max-width:600px){
+    .button2{
+margin-left: 130px !important;
+position: relative;
+    }
+  }
   .divsec4 h5{
   
   color: #ffffff;
@@ -407,6 +462,13 @@ text-align: center;
     font-weight: 400;
     font-style: normal;
     
+  }
+
+  @media(max-width:500px){
+  .divsec4-p2 img{
+    width: 370px;
+    height: 500px;
+  }
   }
   .butt2 {
     display: inline-block;
@@ -601,7 +663,20 @@ display: flex;
     background-color: #d5665f;
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
   }
-
+  @media(max-width:500px){
+    .buttonn2{
+      margin-left: 120px;
+      margin-top: 100px;
+      position: absolute;
+    }
+    .divsec6 p{
+      margin-left: 10px;
+      margin-top: -300px;
+      font-size: 15px;
+      position: relative;
+      color: #040404;
+    }
+  }
 
 
  /* ---------------------------------------sec7---------------------------------------------  */
@@ -683,6 +758,8 @@ justify-content: center;
   font-style: normal ;
   color: #0d75e3;
 }
+
+
 
 .divinput{
  background-color: #f4f4f6;
